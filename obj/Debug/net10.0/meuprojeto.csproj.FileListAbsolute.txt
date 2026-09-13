@@ -33,3 +33,15 @@ C:\Users\Micro\meuprojeto\obj\Debug\net10.0\meuprojeto.genruntimeconfig.cache
 C:\Users\Micro\meuprojeto\obj\Debug\net10.0\ref\meuprojeto.dll
 C:\Users\Micro\meuprojeto\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Micro\meuprojeto\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.csproj.AssemblyReference.cache
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.AssemblyInfoInputs.cache
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.AssemblyInfo.cs
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.csproj.CoreCompileInputs.cache
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.sourcelink.json
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.dll
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\refint\meuprojeto.dll
+C:\Users\Micro\apicsharp\obj\Debug\net10.0\meuprojeto.pdb
