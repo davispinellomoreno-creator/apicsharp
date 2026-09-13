@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5nCT/yCX5c=",
+  "dgSpecHash": "0AJot2uMavE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Micro\\meuprojeto\\meuprojeto.csproj",
+  "projectFilePath": "C:\\Users\\Micro\\apicsharp\\meuprojeto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Micro\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
     "C:\\Users\\Micro\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.12\\microsoft.entityframeworkcore.10.0.12.nupkg.sha512",

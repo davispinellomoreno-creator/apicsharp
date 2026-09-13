@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Micro\\meuprojeto\\meuprojeto.csproj": {}
+    "C:\\Users\\Micro\\apicsharp\\meuprojeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Micro\\meuprojeto\\meuprojeto.csproj": {
+    "C:\\Users\\Micro\\apicsharp\\meuprojeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micro\\meuprojeto\\meuprojeto.csproj",
+        "projectUniqueName": "C:\\Users\\Micro\\apicsharp\\meuprojeto.csproj",
         "projectName": "meuprojeto",
-        "projectPath": "C:\\Users\\Micro\\meuprojeto\\meuprojeto.csproj",
+        "projectPath": "C:\\Users\\Micro\\apicsharp\\meuprojeto.csproj",
         "packagesPath": "C:\\Users\\Micro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micro\\meuprojeto\\obj\\",
+        "outputPath": "C:\\Users\\Micro\\apicsharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Micro\\AppData\\Roaming\\NuGet\\NuGet.Config"
