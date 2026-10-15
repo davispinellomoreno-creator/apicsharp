@@ -5,9 +5,9 @@ namespace apicsharp.Repositories;
 public interface ITransacaoRepository
 {
     Task<List<Transacao>> ObterTodasAsync(int usuarioId);
-    Task<Transacao?> ObterPorIdAsync(int id);
+    Task<Transacao?> ObterPorIdAsync(int id, int usuarioId);
+    Task<bool> CategoriaExisteAsync(int categoriaId);
     Task AdicionarAsync(Transacao transacao);
-    void Atualizar(Transacao transacao);
     void Remover(Transacao transacao);
     Task<bool> SalvarAsync();
 }
