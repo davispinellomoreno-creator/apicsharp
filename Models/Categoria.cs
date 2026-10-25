@@ -1,9 +1,14 @@
 namespace apicsharp.Models;
 
-public class Categoria{
-public int Id {get; set;}
-public String Nome {get; set;} = String.Empty;
-public String Tipo{get; set;} = String.Empty;
+public enum TipoCategoria
+{
+    Receita,
+    Despesa
+}
 
-
+public class Categoria
+{
+    public int Id { get; set; }
+    public string Nome { get; set; } = string.Empty;
+    public TipoCategoria Tipo { get; set; }
 }

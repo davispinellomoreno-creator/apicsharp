@@ -21,21 +21,21 @@ public class TransacaoRepository : ITransacaoRepository
             .ToListAsync();
     }
 
-    public async Task<Transacao?> ObterPorIdAsync(int id)
+    public async Task<Transacao?> ObterPorIdAsync(int id, int usuarioId)
     {
         return await _context.Transacoes
             .Include(t => t.Categoria)
-            .FirstOrDefaultAsync(t => t.Id == id);
+            .FirstOrDefaultAsync(t => t.Id == id && t.UsuarioId == usuarioId);
+    }
+
+    public async Task<bool> CategoriaExisteAsync(int categoriaId)
+    {
+        return await _context.Categorias.AnyAsync(c => c.Id == categoriaId);
     }
 
     public async Task AdicionarAsync(Transacao transacao)
     {
         await _context.Transacoes.AddAsync(transacao);
-    }
-
-    public void Atualizar(Transacao transacao)
-    {
-        _context.Transacoes.Update(transacao);
     }
 
     public void Remover(Transacao transacao)

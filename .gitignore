@@ -1,0 +1,11 @@
+# Build
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# Variáveis de ambiente (contém senhas)
+.env
