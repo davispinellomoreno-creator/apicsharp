@@ -23,6 +23,17 @@ var connectionString = Environment.GetEnvironmentVariable("DB_HOST") is { } dbHo
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(connectionString));
 
+// Endereços do front-end que podem chamar a API (separados por vírgula no .env)
+var origensPermitidas = (Environment.GetEnvironmentVariable("CORS_ORIGINS")
+        ?? "http://localhost:3000,http://localhost:5173,http://localhost:4200")
+    .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+
+builder.Services.AddCors(options =>
+    options.AddPolicy("Frontend", policy => policy
+        .WithOrigins(origensPermitidas)
+        .AllowAnyHeader()
+        .AllowAnyMethod()));
+
 
 builder.Services.AddScoped<ITransacaoRepository, TransacaoRepository>();
 builder.Services.AddScoped<ITransacaoService, TransacaoService>();
@@ -41,6 +52,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+// Antes do redirecionamento HTTPS, para o navegador não receber redirect no preflight (OPTIONS)
+app.UseCors("Frontend");
 app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
